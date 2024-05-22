@@ -16,6 +16,35 @@ else:
 print("Nuevooo")
 
 
-print("###########EJEMPLO 2################")
+print("########### EJEMPLO 2################")
 
-print("AHORA SIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII")
+#Operadores de comparacion
+
+#year = 2020
+year = int(input("En que año estamos??"))
+
+if year >= 2021:
+    print("Estamos de 2021 en adelante!!!")
+
+else:
+    print("Es un año anterior a 2021")
+
+
+print("########## EJEMPLO 3 ###################")
+
+nombre = "Arturo Vidal"
+ciudad = "Barcelona"
+continente = "Europa"
+edad = 55
+mayoria_edad = 18
+
+if edad >= mayoria_edad:
+    print(f"{nombre} es mayor de edad !!")
+    if continente != "Europa":
+        print("El usuario no es Europeo")
+    else: 
+        print(f"Es europeo y de {ciudad}")
+    
+
+else:
+    print(f"{nombre} NO es mayor de edad")
